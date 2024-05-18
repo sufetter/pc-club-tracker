@@ -43,14 +43,14 @@
             <td>Будет множество из 3-х контейнеров, не рекомендуется</td>
         </tr>
         <tr>
-            <td><code>docker-compose up club</code></td>
+            <td><code>docker-compose up tracker</code></td>
             <td>
                     <p>Запуск с использованием конфигурационного файла docker-compose.yml</p>
                     <p>Запустится контейнер с тестовыми данными из ТЗ</p>
             </td>
         </tr>
         <tr>
-            <td><code>docker-compose up club-huge</code></td>
+            <td><code>docker-compose up huge-tracker</code></td>
             <td>Запуск с использованием других тестовых данных</td>
         </tr>
         <tr>
