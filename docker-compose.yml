@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+    tracker:
+        image: pc-club-tracker
+        container_name: club
+        build: .
+        command: ["go", "run", "cmd/main.go", "storage/club.txt"]
+    hugeTracker:
+        image: pc-club-tracker-huge
+        container_name: huge-tracker
+        build: .
+        command: [ "go", "run", "cmd/main.go", "storage/club_huge.txt" ]
+    test:
+        image: pc-club-tracker-test
+        container_name: club-tests
+        build: .
+        command: ["go", "test", "-v", "github.com/sufetter/pc-club-tracker/pkg/queue", "github.com/sufetter/pc-club-tracker/internal/club"]
