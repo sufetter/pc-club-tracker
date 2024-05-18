@@ -50,7 +50,7 @@
             </td>
         </tr>
         <tr>
-            <td><code>docker-compose up huge-tracker</code></td>
+            <td><code>docker-compose up hugeTracker</code></td>
             <td>Запуск с использованием других тестовых данных</td>
         </tr>
         <tr>
